@@ -19,7 +19,7 @@ public class TodoController {
 
 	@RequestMapping(value = "/cadastrarTodo", method = RequestMethod.GET)
 	public String form() {
-		return "toDo/formToDo";
+		return "todo/formTodo";
 	}
 
 	@RequestMapping(value = "/cadastrarTodo", method = RequestMethod.POST)
