@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org" xmlns:layout="http://ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8" />
+<title>ToDo</title>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<div class="container">
+		<h1>Cadastrar ToDo</h1>
+
+		<form method="post">
+			<div class="input-field col s3">
+				Nome:<input type="text" value="" name="nome" />
+			</div>
+			<button class="waves-effect waves-light btn" type="submit">Salvar</button>
+		</form>
+
+		<h3>
+			<a class="waves-effect waves-light btn" href="/todos">Listar ToDo's</a>
+		</h3>
+	</div>
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+</body>
+</html>
